@@ -206,35 +206,50 @@ ul {
 /*CELULAR*/
 
 @media(min-width:320px) and (max-width:768px) {
+
     .footerclass {
         padding-left: 3%;
     }
 
-    .footerclassqsomos {
+    .footerclassqsomoscontactoproductosgaleria {
+        padding-left: 3%;
+    }
+
+    .footerclassip {
         padding-left: 3%;
     }
 
     .fotopcrepair img {
         height: 200px; 
         width:310px ;
-        margin-left: 17%;
+        margin-left: 2%;
     }
-    
-    .fotoproyecto img {
-        margin-left: 25%;
 
+    .marcascamaras img {
+        height: 90px;
+        width: 90px;
+        margin-left: 4%;
+    }
+
+    .camarashikvision {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fotoproyecto img {
+        margin-left: 15%;
     }
 
     .fotopctrabajando img {
         height: 200px;
-        width: 310px;
-        margin-left: 18%;
+        width: 300px;
+        margin-left: 1%;
     }
 
     .fotopclugar img {
         height: 200px;
-        width: 310px;
-        margin-left: 18%;
+        width: 300px;
+        margin-left: 1%;
     }
 
     .porlijidad img {
@@ -243,15 +258,20 @@ ul {
         margin-left: 25%;
     }
 
+    .marcascamaras {
+        text-align: center;
+    }
+
     .imagenesquienessomos img {
         height: 300px;
         width: 300px;
-        margin-left: 18%;
+        margin-left: 1%;
     }
 
     ul{
        display: flex; 
        flex-direction: column;
+       padding-right: 10%;
     }
 
     h2 {
