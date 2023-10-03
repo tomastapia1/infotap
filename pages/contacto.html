@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logocamara2.png" type="image/x-icon">
+    <title>INFOTAP</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="colorfondouno">
+    <h1>INFOTAP</h1>
+    <div class="fuente" id="arriba"><a href="../index.html"><img src="../img/logocamara2sinfondo.png" alt="logocamara2"></a></div> <!-- Uso el id arriba ya que cuando la persona esta en el footer, puede subir rapidamente.-->
+    <hr>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./galeria.html">Galeria</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./quienesomos.html">¿Quienes somos?</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>  
+    <main>
+        <section>
+            <h2>Formulario de contacto</h2>
+            <form action="" method="post" enctype="text/plain">
+                <fieldset>
+                    <label for="nombreapellido">Nombre y apellido:</label>
+                    <input type="text" id="nombreapellido" name="nombreapellido" placeholder="Nombre y Apellido" required>
+                </fieldset>
+                <fieldset>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="example@hotmail.com" required>
+                </fieldset>
+                <fieldset>
+                    <label for="domicilio">Domicilio:</label>
+                    <input type="text" id="domicilio" name="domicilio" placeholder="X si es retiro en suc." required>
+                </fieldset>
+                <fieldset>
+                    <legend>¿Lugar de entrega?</legend>
+                    <div>A domicilio</div>
+                    <input type="radio" name="retiro" value="A domicilio" required>
+                    <div>Retiro en sucursal</div>
+                    <input type="radio" name="retiro" value="Retiro en sucursal" required>
+                </fieldset>    
+                <fieldset>
+                    <label for="mensajeusuario">Dejanos tu mensaje</label>    
+                    <textarea name="mensajeusuario" id="mensajeusuario" cols="30" rows="10"></textarea>
+                    <input type="datetime-local" required>
+                </fieldset>
+                <input type="submit" value="Enviar"> 
+                <input type="reset" value="Borrar">
+            </form>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <div class="footerclassqsomoscontactoproductosgaleria"> <!-- Le pongo una class ya que despues tengo que usarlo en el css para tirar el footer a la derecha.-->
+            <p>INFOTAP</p>
+            <p>Direccion: Cabildo 2737</p>
+            <p>Abierto Lunes a Viernes de 10:00am a 20:00pm</p>
+            <a href=" https://www.facebook.com/?locale=es_LA"><img src="../img/facebook.png" alt="facebook"></a> 
+            <a href=" https://web.whatsapp.com/"><img src="../img/whatsapp.png" alt="whatsapp"></a>  
+            <a href="#arriba"><img src="../img/angulo-hacia-arriba.png" alt="angulo-hacia-arriba" ></a> 
+        </div>
+    </footer>    
+</body>
+</html> 

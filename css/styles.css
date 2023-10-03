@@ -1,0 +1,298 @@
+/*H*/
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+h2 {
+    background-color: rgb(219, 219, 167);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    background-color: rgb(219, 219, 167); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.camarashikvision h2 {
+    font-family:'roboto', sans-serif;
+    background-color: white;
+    font-size: 15px;
+}
+
+/*H*/
+
+.fuente {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: yellow;    
+}
+
+ul {
+    background-color: black;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*COLOR FONDO */
+
+.colorfondouno {  
+    background-color: bisque; 
+}
+
+.colorfondodos { 
+    background-image: url(../img/quienesomosfondo.jpg);
+}
+
+.fotofondo {
+    background-color:gray ;
+}
+
+.colorfondologosip {
+    background-color: gray ;
+}
+
+/* CAROUSEL */
+
+.carousel-inner {
+    color: white;
+}
+
+.camarashikvision p {
+    font-family:'roboto', sans-serif;
+    background-color: white;
+    font-size: 13px;
+}
+
+.descripcioncamaraip {
+    color: white;
+}
+
+.camarashikvision {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ;
+    grid-template-rows:repeat(3, 1fr) ;
+    width: 100%;
+    height: 90vh;
+}
+
+#carouselExample {
+    padding-left: 40%;
+}
+
+/*IMAGENES*/
+
+.fotoproyecto {
+    color: rgb(219, 219, 167);
+}
+
+.fotopcrepair {
+    color: rgb(219, 219, 167); 
+}
+
+.carousel-inner img {
+    width:200px ;
+    height: 200px;
+}
+
+.camarashikvision img {
+    width:200px;
+    height:200px;
+    border-left: 1px solid black;
+}
+
+.marcascamaras img {
+    width: 630px;
+    height: 250px;
+}
+
+.colorfondoeimagen img {
+    width: 200px;
+    height: 200px;
+}
+
+.fotopcrepair img {
+    width: 500px;
+    height: 200px;   
+}
+
+.fotoproyecto img {
+    width: 220px;
+    height: 150px;
+}
+
+.porlijidad img {
+    width:400px ;
+    height:400px ;
+}
+
+.fotopclugar img {
+    width: 800px;
+    height: 400px;
+}
+
+.fotopctrabajando img {
+    width: 800px;
+    height: 400px;
+}
+
+#arriba img {
+    width: 80px;
+    height: 80px;
+}
+
+/*IMAGENES*/
+
+/*FOOTERCLASS*/
+
+.footerclass {
+    padding-left: 85%;
+    color: aliceblue;
+}
+
+.footerclassqsomoscontactoproductosgaleria {
+    padding-left: 85%;
+}
+
+.footerclasscamaraip {
+    color: white;
+}
+
+.footerclassip {
+    padding-left: 85%;
+    color: white;
+}
+
+.footerclassip img {
+    width: 20px;
+    height: 20px;
+}
+
+.footerclasscamaraip img {
+    color: white;
+}
+
+.footerclass img {
+    width: 20px;
+    height: 20px;
+}
+
+.footerclassqsomoscontactoproductosgaleria img {
+    width: 20px;
+    height: 20px;
+}
+
+/*FOOTERCLASS*/
+
+/*CELULAR*/
+
+@media(min-width:320px) and (max-width:768px) {
+    .footerclass {
+        padding-left: 3%;
+    }
+
+    .footerclassqsomos {
+        padding-left: 3%;
+    }
+
+    .fotopcrepair img {
+        height: 200px; 
+        width:310px ;
+        margin-left: 17%;
+    }
+    
+    .fotoproyecto img {
+        margin-left: 25%;
+
+    }
+
+    .fotopctrabajando img {
+        height: 200px;
+        width: 310px;
+        margin-left: 18%;
+    }
+
+    .fotopclugar img {
+        height: 200px;
+        width: 310px;
+        margin-left: 18%;
+    }
+
+    .porlijidad img {
+        height: 200px;
+        width: 200px;
+        margin-left: 25%;
+    }
+
+    .imagenesquienessomos img {
+        height: 300px;
+        width: 300px;
+        margin-left: 18%;
+    }
+
+    ul{
+       display: flex; 
+       flex-direction: column;
+    }
+
+    h2 {
+        text-align: center;
+    }
+ 
+    h3 {
+        text-align: center;
+    } 
+
+}
+
+/*CELULAR*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
