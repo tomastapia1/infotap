@@ -45,7 +45,7 @@ li a:hover {
 }
 
 ul {
-    background-color: black;
+    
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -54,10 +54,6 @@ ul {
 }
 
 /*COLOR FONDO */
-
-.colorfondouno {  
-    background-color: bisque; 
-}
 
 .colorfondodos { 
     background-image: url(../img/quienesomosfondo.jpg);
@@ -166,37 +162,10 @@ ul {
 
 .footerclass {
     padding-left: 85%;
-    color: aliceblue;
-}
-
-.footerclassqsomoscontactoproductosgaleria {
-    padding-left: 85%;
-}
-
-.footerclasscamaraip {
-    color: white;
-}
-
-.footerclassip {
-    padding-left: 85%;
-    color: white;
-}
-
-.footerclassip img {
-    width: 20px;
-    height: 20px;
-}
-
-.footerclasscamaraip img {
-    color: white;
+    background-color: white;
 }
 
 .footerclass img {
-    width: 20px;
-    height: 20px;
-}
-
-.footerclassqsomoscontactoproductosgaleria img {
     width: 20px;
     height: 20px;
 }
@@ -211,23 +180,27 @@ ul {
         padding-left: 3%;
     }
 
-    .footerclassqsomoscontactoproductosgaleria {
-        padding-left: 3%;
-    }
+    .carousel-item img {
+        padding-right: 150%;
+        width: 600px;
+        height: 200px;
 
-    .footerclassip {
-        padding-left: 3%;
     }
 
     .fotopcrepair img {
         height: 200px; 
         width:310px ;
-        margin-left: 2%;
+        margin-left: 17%;
+    }
+
+    .colorfondoeimagen img {
+        height: 90px;
+        width: 90px;
     }
 
     .marcascamaras img {
-        height: 90px;
-        width: 90px;
+        height: 220px;
+        width: 220px;
         margin-left: 4%;
     }
 
@@ -237,7 +210,7 @@ ul {
     }
 
     .fotoproyecto img {
-        margin-left: 15%;
+        margin-left: 26%;
     }
 
     .fotopctrabajando img {
@@ -264,8 +237,8 @@ ul {
 
     .imagenesquienessomos img {
         height: 300px;
-        width: 300px;
-        margin-left: 1%;
+        width: 400px;
+        margin-left: 10%;
     }
 
     ul{

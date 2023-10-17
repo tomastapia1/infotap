@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/logocamara2.png" type="image/x-icon">
     <title>INFOTAP</title>
-    <link rel="stylesheet" href="./bs/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body class="colorfondologos">
@@ -15,15 +15,40 @@
     </div>
     <hr>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./quienesomos.html">¿Quienes somos?</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/quienesomos.html">¿Quienes somos?</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="../pages/productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../pages/hikvision.html">Hik-Vision</a></li>        
+                        <li><a class="dropdown-item" href="../pages/ezviz.html">Ezviz</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>       
     </header>
     <hr>
     <main>
@@ -32,27 +57,79 @@
                     <a href="../pages/camaraip.html"><img src="../img/ds-scd1343g2-l.jpg" alt="hikvision"></a>
                     <h2>DS-2CD1343G2-I CÁMARA IP HIKVISION</h2>
                     <p>CÁMARA IP, TURRET, 4MPX, ACUSENSE, 30 MTS IR, IP67</p>
+                    <p>Precio: 22.000$</p>
                 </div>
                 <div>
                     <a href="../pages/camaraipuno.html"><img src="../img/ds-2cd1023g0e-lc.jpg" alt="camaraipuno"></a>
                     <h2>DS-2CD1023G0E-I(C) CÁMARA IP HIKVISION</h2>
                     <p>CAM IP, BULLET, 2MPX@20FPS, LENTE 2.8MM, IR 30M, IP67</p>
+                    <p>Precio: 10.200$</p>
                 </div>
                 <div>
                     <a href="../pages/camaraipdos.html"><img src="../img/ds-2cd1043g0-lc.jpg" alt="camaraipuno"></a>
                     <h2>DS-2CD1043G0-I(C) CÁMARA IP HIKVISION</h2>
                     <p>CÁMARA IP BULLET 4MP, LENTE 2.8MM, H265+, IR30M</p>
+                    <p>Precio: 121.000$</p>
                 </div>
                 <div>
                     <a href="../pages/camaraiptres.html"><img src="../img/ds-2cd2043g2-l.jpg" alt="camaraipuno"></a>
                     <h2>DS-2CD2043G2-I CÁMARA IP HIKVISION</h2>
                     <p>CAM IP, BULLET, 4 MPX, LENTE 2.8MM, H265+, IP67, IR 30M</p>
+                    <p>Precio: 11.000$</p>
+                </div>
+                <div>
+                    <a href="../pages/camaraipcuatro.html"><img src="../img/camaraipcuatro.jpg" alt="hikvision"></a>
+                    <h2>DS-2CD2143G2-IU CÁMARA IP HIKVISION</h2>
+                    <p>CAM IP, MINIDOMO, 4 MPX</p>
+                    <p>Precio: 100.210$</p>
+                </div>
+                <div>
+                    <a href="../pages/camaraipcinco.html"><img src="../img/camaraipcinco.jpg" alt="hikvision"></a>
+                    <h2>DS-2CD2746G2-IZS(2.8-12MM)(C) CÁMARA IP HIKVISION</h2>
+                    <p>CAM IP, MINIDOMO, 4 MP, VF MOT. 2.8-12MM, H265+</p>
+                    <p>Precio: 101.300$</p>
+                </div>
+                <div>
+                    <a href="../pages/camaraipseis.html"><img src="../img/camaraipseis.jpg" alt="hikvision"></a>
+                    <h2>IDS-2CD7A46G0-IZHS(8-32MM) CÁMARA IP HIKVISION</h2>
+                    <p>CAM IP BULLET, 4MP, VF MOT 8-32MM, 140DB WDR, IP67/IK10, IR50M</p>
+                    <p>Precio: 102.100$</p>
+                </div>
+                <div>
+                    <a href="../pages/camaraipsiete.html"><img src="../img/camaraipsiete.jpg" alt="hikvision"></a>
+                    <h2>DS-2CD2063G2-I CÁMARA IP HIKVISION</h2>
+                    <p>CAM IP, BULLET, 6 MPX, LENTE 4MM, H265+, IR 30M, WDR 120DB, IP67</p>
+                    <p>Precio: 221.000$</p>
+                </div>
+                <div>
+                    <a href="../pages/camaraipocho.html"><img src="../img/camaraipocho.jpg" alt="hikvision"></a>
+                    <h2>DS-2CD7A46G0-IZS CÁMARA IP HIKVISION</h2>
+                    <p>CAM IP BULLET, 4MP, VF MOT 2.8-12, 140DB WDR, IP67/IK10, IR50M</p>
+                    <p>Precio: 51.000$</p>
+                </div>
+                <div>
+                    <a href="../pages/camaraipnueve.html"><img src="../img/camaraipnueve.jpg" alt="hikvision"></a>
+                    <h2>DS-2CD1327G0-L(C) CÁMARA IP HIKVISION</h2>
+                    <p>CAM IP TURRET, 2 MPX, LF 2.8 MM, DWDR, IP67, COLORVU</p>
+                    <p>Precio: 31.000$</p>
+                </div>
+                <div>
+                    <a href="../pages/camaraipdiez.html"><img src="../img/camaraipdiez.jpg" alt="hikvision"></a>
+                    <h2>IDS-2CD7146G0-IZS CÁMARA IP HIKVISION</h2>
+                    <p>CÁMARA IP MINIDOMO, 4 MPX, IR 30M, VF 2.8-12, IK10, H.265+, WDR</p>
+                    <p>Precio: 21.000$</p>
+                </div>
+                <div>
+                    <a href="../pages/camaraiponce.html"><img src="../img/camaraiponce.jpg" alt="hikvision"></a>
+                    <h2>DS-2CD1143G0-I(C) CÁMARA IP HIKVISION</h2>
+                    <p>CÁMARA IP MINIDOMO 4MP, LENTE 2.8MM, H265+, IR 30M, IP67/IK10</p>
+                    <p>Precio: 11.100$</p>
                 </div>
         </section>
     </main>
     <hr>
     <footer>
-        <div class="footerclassqsomoscontactoproductosgaleria"> <!-- Le pongo una class ya que despues tengo que usarlo en el css para tirar el footer a la derecha.-->
+        <div class="footerclass"> <!-- Le pongo una class ya que despues tengo que usarlo en el css para tirar el footer a la derecha.-->
             <p>INFOTAP</p>
             <p>Direccion: Cabildo 2737.</p>
             <p>Abierto Lunes a Viernes de 10:00am a 20:00pm.</p>
@@ -61,6 +138,6 @@
             <a href="#arriba"><img src="../img/angulo-hacia-arriba.png" alt="angulo-hacia-arriba"></a>
         </div>
     </footer>
-    <script src="./bs/js/bootstrap.min.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
 </body>
 </html>

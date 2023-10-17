@@ -5,73 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/logocamara2.png" type="image/x-icon">
     <title>INFOTAP</title>
-    <link rel="stylesheet" href="./bs/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <div class="logo">
         <h1>INFOTAP</h1>
-        <div class="fuente" id="arriba"><a href="../index.html"><img src="../img/logocamara2sinfondo.png" alt="logocamara2"></a></div> <!-- Uso el id arriba ya que cuando la persona esta en el footer, puede subir rapidamente.-->
+        <div class="fuente" id="arriba"><a href="../index.html"><img src="../img/logocamara2sinfondo.png" alt="logocamara2"></a></div> 
     </div>   
     <hr>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="./quienesomos.html">¿Quienes somos?</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/quienesomos.html">¿Quienes somos?</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="../pages/productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../pages/hikvision.html">Hik-Vision</a></li>        
+                      <li><a class="dropdown-item" href="../pages/ezviz.html">Ezviz</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                  <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>       
     </header>
     <main>
-        <section>
-            <h2>Camaras ip</h2>
-                <div class="porlijidad">
-                    <h3>Descripcion:</h3>
-                    <p>Cámara IP bullet, 8MPx. Lente fija de 2.8 mm, sensor CMOS de 1 / 1.8 ", H.265 +. Día y noche (ICR), iluminador IR 80M. Triple Stream. Detección de rostro. WDR 120dB , ROI, BLC, HLC, 3D DNR, AGC. Ranura MicroSD. ANR. Protección IP67, metálica.</p>
-                    <h4>Marca: Hik-vision</h4>
-                    <img src="../img/camaraipuno.jpg" alt="camaraipuno">
-                    <p class="honda">40.000$</p>
-                </div>
-            <h2>Camara analogicas</h2>
-                <div class="porlijidad">
-                    <h3>Descripcion:</h3>
-                    <p>Cámara Turbo, Turret. Resolución máxima: 2560 x 1944 ( 5 Megapixel). Iluminación mínima:0.01 Lux@(F1.2, AGC ON), 0 Lux con IR. Lente fijo: 2.8 mm (ángulo de visión 85°). 30 mts IR EXIR (visión nocturna). Soporta 4 tecnologías seleccionables (TVI / AHD / CVI / CVBS ). Funciones: dWDR / BLC / 2D-DNR / HLC. Temperatura de operación: -40ºC a 60ºC. Alimentación: 12 VCC / 4.3 Watts. Apta exterior, IP67. Fabricado en material de metal. Dimensiones: 82.6 x 90 x 79.37 mm. Peso: 289 grs.</p>
-                    <h4>Marca: Hik-vision</h4>
-                    <img src="../img/camaraanalogicauno.jpg" alt="camaraanalogicauno">
-                    <p class="honda">15.000$</p>
-                </div>
-            <h2>DVR</h2>
-                <div class="porlijidad">
-                    <h3>Descripcion:</h3>
-                    <p>DVR Turbo HD, PENTAHÍBRIDO: HD-TVI / HD-CVI / Analógico / IP / AHD. Funciones Avanzadas: Detección por cruce de línea & detección de intrusión. Soporta detección de movimiento 2.0 ( solo activa el evento cuando detecte humanos o vehículos). Compresión H.265+ / H.265 / H.264+ / H.264. Soporta 8 canales TURBOHD / analógicos + 8 canales IP = 16 canales en total, pudiendo ser 16 canales IP en total, apagando canales analógicos. Resolución máxima 8 Megapixel @ 8 FPS. Máximo en tiempo real: 2 Megapixel @ 30 FPS. IP hasta 8 Megapixel. Salida de vídeo en HDMI hasta 4K (3840 x 2160). Salida de vídeo en VGA hasta 1920×1080. (HDMI y VGA: salida simultanea). Entrada/Salida audio. Interfaz serial: RS-485. Interfaz red: 1 puertos (RJ-45 10/100 Mbps). Capacidad HDD: 1 @ 10 TB. Soporta audio en todos sus canales por coaxitron utilizando cámaras con audio integrado. Alimentación: 12 VCD. Consumo sin HDD: 15W. Temperatura de operación: -10 ºC hasta 55 ºC. Dimensiones: 315 × 242 × 45 mm. Peso: 2 Kg (sin HDD). Alarmas I/O: N/A.</p>
-                    <h4>Marca: Hik-vision</h4>
-                    <img src="../img/dvruno.jpg" alt="dvruno">
-                    <p class="honda">60.000$</p> 
-                </div>
-            <h2>Discos</h2>    
-                <div class="porlijidad">
-                    <h3>Descripcion:</h3>
-                    <p>Disco rígido de 6 TB. ESPECIALES PARA DVRs. Serie AUDIO/VIDEO PURPLE (AV-GP) S-ATA. 256 Mb Caché.</p>
-                    <h4>Marca: Western Digital</h4>
-                    <img src="../img/disco6tb.jpg" alt="disco6tb">
-                    <p class="honda">100.000$</p>
-                </div>
-        </section>
+      <section>
+        <h2>Camaras ip</h2>
+            <div class="porlijidad">
+                <h3>Descripcion:</h3>
+                <p>Cámara IP bullet, 8MPx. Lente fija de 2.8 mm, sensor CMOS de 1 / 1.8 ", H.265 +. Día y noche (ICR), iluminador IR 80M. Triple Stream. Detección de rostro. WDR 120dB , ROI, BLC, HLC, 3D DNR, AGC. Ranura MicroSD. ANR. Protección IP67, metálica.</p>
+                <h4>Marca: Hik-vision</h4>
+                <img src="../img/camaraipuno.jpg" alt="camaraipuno">
+                <p class="honda">40.000$</p>
+            </div>
+        <h2>Camara analogicas</h2>
+            <div class="porlijidad">
+                <h3>Descripcion:</h3>
+                <p>Cámara Turbo, Turret. Resolución máxima: 2560 x 1944 ( 5 Megapixel). Iluminación mínima:0.01 Lux@(F1.2, AGC ON), 0 Lux con IR. Lente fijo: 2.8 mm (ángulo de visión 85°). 30 mts IR EXIR (visión nocturna). Soporta 4 tecnologías seleccionables (TVI / AHD / CVI / CVBS ). Funciones: dWDR / BLC / 2D-DNR / HLC. Temperatura de operación: -40ºC a 60ºC. Alimentación: 12 VCC / 4.3 Watts. Apta exterior, IP67. Fabricado en material de metal. Dimensiones: 82.6 x 90 x 79.37 mm. Peso: 289 grs.</p>
+                <h4>Marca: Hik-vision</h4>
+                <img src="../img/camaraanalogicauno.jpg" alt="camaraanalogicauno">
+                <p class="honda">15.000$</p>
+            </div>
+        <h2>DVR</h2>
+            <div class="porlijidad">
+                <h3>Descripcion:</h3>
+                <p>DVR Turbo HD, PENTAHÍBRIDO: HD-TVI / HD-CVI / Analógico / IP / AHD. Funciones Avanzadas: Detección por cruce de línea & detección de intrusión. Soporta detección de movimiento 2.0 ( solo activa el evento cuando detecte humanos o vehículos). Compresión H.265+ / H.265 / H.264+ / H.264. Soporta 8 canales TURBOHD / analógicos + 8 canales IP = 16 canales en total, pudiendo ser 16 canales IP en total, apagando canales analógicos. Resolución máxima 8 Megapixel @ 8 FPS. Máximo en tiempo real: 2 Megapixel @ 30 FPS. IP hasta 8 Megapixel. Salida de vídeo en HDMI hasta 4K (3840 x 2160). Salida de vídeo en VGA hasta 1920×1080. (HDMI y VGA: salida simultanea). Entrada/Salida audio. Interfaz serial: RS-485. Interfaz red: 1 puertos (RJ-45 10/100 Mbps). Capacidad HDD: 1 @ 10 TB. Soporta audio en todos sus canales por coaxitron utilizando cámaras con audio integrado. Alimentación: 12 VCD. Consumo sin HDD: 15W. Temperatura de operación: -10 ºC hasta 55 ºC. Dimensiones: 315 × 242 × 45 mm. Peso: 2 Kg (sin HDD). Alarmas I/O: N/A.</p>
+                <h4>Marca: Hik-vision</h4>
+                <img src="../img/dvruno.jpg" alt="dvruno">
+                <p class="honda">60.000$</p> 
+            </div>
+        <h2>Discos</h2>    
+            <div class="porlijidad">
+                <h3>Descripcion:</h3>
+                <p>Disco rígido de 6 TB. ESPECIALES PARA DVRs. Serie AUDIO/VIDEO PURPLE (AV-GP) S-ATA. 256 Mb Caché.</p>
+                <h4>Marca: Western Digital</h4>
+                <img src="../img/disco6tb.jpg" alt="disco6tb">
+                <p class="honda">100.000$</p>
+            </div>
+      </section> 
     </main>
-    <hr>
-    <footer> 
-        <div class="footerclassqsomoscontactoproductosgaleria"> <!-- Le pongo una class ya que despues tengo que usarlo en el css para tirar el footer a la derecha.-->
-            <p>INFOTAP</p>
-            <p>Direccion: Cabildo 2737</p>
-            <p>Abierto Lunes a Viernes de 10:00am a 20:00pm</p>
-            <a href=" https://www.facebook.com/?locale=es_LA"><img src="../img/facebook.png" alt="facebook"></a> 
-            <a href=" https://web.whatsapp.com/"><img src="../img/whatsapp.png" alt="whatsapp"></a> 
-            <a href="#arriba"><img src="../img/angulo-hacia-arriba.png" alt="angulo-hacia-arriba"></a> 
-        </div>
+    <footer>
+      <div class="footerclass"> <!-- Le pongo una class ya que despues tengo que usarlo en el css para tirar el footer a la derecha.-->
+          <p>INFOTAP</p>
+          <p>Direccion: Cabildo 2737</p>
+          <p>Abierto Lunes a Viernes de 10:00am a 20:00pm</p>
+          <a href=" https://www.facebook.com/?locale=es_LA"><img src="../img/facebook.png" alt="facebook"></a> 
+          <a href=" https://web.whatsapp.com/"><img src="../img/whatsapp.png" alt="whatsapp"></a> 
+          <a href="#arriba"><img src="../img/angulo-hacia-arriba.png" alt="angulo-hacia-arriba"></a> 
+      </div>
     </footer>
-    <script src="./bs/js/bootstrap.min.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
 </body>
 </html>
