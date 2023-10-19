@@ -1,0 +1,147 @@
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.textogradiente {
+    background: linear-gradient(white,gray);
+    -webkit-background-clip: text;
+    color: transparent;  
+      
+}
+
+h2 {
+    background-color: rgb(219, 219, 167);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    background-color: rgb(219, 219, 167); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: yellow;    
+}
+
+.fotopcrepair img {
+    width: 500px;
+    height: 200px;   
+}
+
+.fotoproyecto img {
+    width: 220px;
+    height: 150px;
+}
+
+#arriba img {
+    width: 80px;
+    height: 80px;
+}
+
+.fotoproyecto {
+    color: rgb(219, 219, 167);
+}
+
+.fotopcrepair {
+    color: rgb(219, 219, 167); 
+}
+
+.footerclass {
+    padding-left: 85%;
+    background-color: white;
+}
+
+.footerclass img {
+    width: 20px;
+    height: 20px;
+}
+
+.fuente {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.fotofondo {
+    background-color:gray ;
+}
+
+.marcascamaras img {
+    width: 630px;
+    height: 250px;
+}
+
+.colorfondoeimagen img {
+    width: 200px;
+    height: 200px;
+}
+
+
+@media(min-width:320px) and (max-width:768px) {
+
+        ul{
+            display: flex; 
+            flex-direction: column;
+            padding-right: 10%;
+        }
+
+        h2 {
+            text-align: center;
+        }
+     
+        h3 {
+            text-align: center;
+        } 
+
+        .fotopcrepair img {
+            height: 150px; 
+            width:240px ;
+            margin-left: 11%;
+        }
+
+        .fotoproyecto img {
+            margin-left: 15%;
+        }
+
+        .footerclass {
+            padding-left: 3%;
+        }
+        
+        .marcascamaras {
+            display: flex; 
+            flex-direction: column;
+        }
+
+        .marcascamaras img {
+            height: 50px;
+            width: 200px;
+            margin-left: 4%;
+        }
+
+        .colorfondoeimagen img {
+            height: 59px;
+            width: 59px;
+        }
+    
+}

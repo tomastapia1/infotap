@@ -1,291 +1,277 @@
-/*H*/
-
 h1 {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+}
+
+.textogradiente {
+  background: linear-gradient(white, gray);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 h2 {
-    background-color: rgb(219, 219, 167);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(219, 219, 167);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h3 {
-    background-color: rgb(219, 219, 167); 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.camarashikvision h2 {
-    font-family:'roboto', sans-serif;
-    background-color: white;
-    font-size: 15px;
-}
-
-/*H*/
-
-.fuente {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
-}
-
-p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-li a {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    text-decoration: none;
-}
-
-li a:hover {
-    color: yellow;    
+  background-color: rgb(219, 219, 167);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul {
-    
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/*COLOR FONDO */
-
-.colorfondodos { 
-    background-image: url(../img/quienesomosfondo.jpg);
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.fotofondo {
-    background-color:gray ;
+li a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-decoration: none;
 }
 
-.colorfondologosip {
-    background-color: gray ;
-}
-
-/* CAROUSEL */
-
-.carousel-inner {
-    color: white;
-}
-
-.camarashikvision p {
-    font-family:'roboto', sans-serif;
-    background-color: white;
-    font-size: 13px;
-}
-
-.descripcioncamaraip {
-    color: white;
-}
-
-.camarashikvision {
-    display: grid;
-    grid-template-columns:repeat(4, 1fr) ;
-    grid-template-rows:repeat(3, 1fr) ;
-    width: 100%;
-    height: 90vh;
-}
-
-#carouselExample {
-    padding-left: 40%;
-}
-
-/*IMAGENES*/
-
-.fotoproyecto {
-    color: rgb(219, 219, 167);
-}
-
-.fotopcrepair {
-    color: rgb(219, 219, 167); 
-}
-
-.carousel-inner img {
-    width:200px ;
-    height: 200px;
-}
-
-.camarashikvision img {
-    width:200px;
-    height:200px;
-    border-left: 1px solid black;
-}
-
-.marcascamaras img {
-    width: 630px;
-    height: 250px;
-}
-
-.colorfondoeimagen img {
-    width: 200px;
-    height: 200px;
+li a:hover {
+  color: yellow;
 }
 
 .fotopcrepair img {
-    width: 500px;
-    height: 200px;   
+  width: 500px;
+  height: 200px;
 }
 
 .fotoproyecto img {
-    width: 220px;
-    height: 150px;
-}
-
-.porlijidad img {
-    width:400px ;
-    height:400px ;
-}
-
-.fotopclugar img {
-    width: 800px;
-    height: 400px;
-}
-
-.fotopctrabajando img {
-    width: 800px;
-    height: 400px;
+  width: 220px;
+  height: 150px;
 }
 
 #arriba img {
-    width: 80px;
-    height: 80px;
+  width: 80px;
+  height: 80px;
 }
 
-/*IMAGENES*/
+.fotoproyecto {
+  color: rgb(219, 219, 167);
+}
 
-/*FOOTERCLASS*/
+.fotopcrepair {
+  color: rgb(219, 219, 167);
+}
 
 .footerclass {
-    padding-left: 85%;
-    background-color: white;
+  padding-left: 85%;
+  background-color: white;
 }
 
 .footerclass img {
+  width: 20px;
+  height: 20px;
+}
+
+.fuente {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+}
+
+.fotofondo {
+  background-color: gray;
+}
+
+.marcascamaras img {
+  width: 630px;
+  height: 250px;
+}
+
+.colorfondoeimagen img {
+  width: 200px;
+  height: 200px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+  }
+  h2 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+  .fotopcrepair img {
+    height: 150px;
+    width: 240px;
+    margin-left: 11%;
+  }
+  .fotoproyecto img {
+    margin-left: 15%;
+  }
+  .footerclass {
+    padding-left: 3%;
+  }
+  .marcascamaras {
+    display: flex;
+    flex-direction: column;
+  }
+  .marcascamaras img {
+    height: 50px;
+    width: 200px;
+    margin-left: 4%;
+  }
+  .colorfondoeimagen img {
+    height: 59px;
+    width: 59px;
+  }
+}
+.colorfondodos {
+  background-image: url(../img/quienesomosfondo.jpg);
+}
+
+.textogradienteqsomos {
+  background: linear-gradient(black, gray);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .imagenesquienessomos img {
+    height: 200px;
+    width: 300px;
+    margin-left: 3%;
+  }
+}
+.porlijidad img {
+  width: 400px;
+  height: 400px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .porlijidad img {
+    height: 200px;
+    width: 200px;
+    margin-left: 25%;
+  }
+}
+.camarashikvision h2 {
+  font-family: "roboto", sans-serif;
+  background-color: white;
+  font-size: 15px;
+}
+
+.colorfondologosip {
+  background-color: gray;
+}
+
+.carousel-inner {
+  color: white;
+}
+
+.camarashikvision p {
+  font-family: "roboto", sans-serif;
+  background-color: white;
+  font-size: 13px;
+}
+
+.descripcioncamaraip {
+  color: white;
+}
+
+.camarashikvision {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 100%;
+  height: 90vh;
+}
+
+#carouselExample {
+  padding-left: 40%;
+}
+
+.carousel-inner img {
+  width: 200px;
+  height: 200px;
+}
+
+.camarashikvision img {
+  width: 200px;
+  height: 200px;
+  border-left: 1px solid black;
+}
+
+.footerclassr {
+  padding-left: 85%;
+  background-color: white;
+}
+
+.footerclassr img {
+  width: 20px;
+  height: 20px;
+}
+
+.transition {
+  transition: height 3s;
+}
+
+.transition:hover {
+  height: 500px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .footerclassr {
+    padding-left: 3%;
+    padding-top: 3000px;
+  }
+  .carousel-item img {
+    width: 120px;
+    height: 100px;
+  }
+  .camarashikvision {
+    display: flex;
+    flex-direction: column;
+  }
+  .marcascamaras {
+    text-align: center;
+  }
+  .footerclassr {
+    padding-left: 1%;
+    background-color: white;
+  }
+  .footerclassr img {
     width: 20px;
     height: 20px;
+  }
+}
+.fotopclugar img {
+  width: 800px;
+  height: 400px;
 }
 
-/*FOOTERCLASS*/
-
-/*CELULAR*/
-
-@media(min-width:320px) and (max-width:768px) {
-
-    .footerclass {
-        padding-left: 3%;
-    }
-
-    .carousel-item img {
-        padding-right: 150%;
-        width: 600px;
-        height: 200px;
-
-    }
-
-    .fotopcrepair img {
-        height: 200px; 
-        width:310px ;
-        margin-left: 17%;
-    }
-
-    .colorfondoeimagen img {
-        height: 90px;
-        width: 90px;
-    }
-
-    .marcascamaras img {
-        height: 220px;
-        width: 220px;
-        margin-left: 4%;
-    }
-
-    .camarashikvision {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .fotoproyecto img {
-        margin-left: 26%;
-    }
-
-    .fotopctrabajando img {
-        height: 200px;
-        width: 300px;
-        margin-left: 1%;
-    }
-
-    .fotopclugar img {
-        height: 200px;
-        width: 300px;
-        margin-left: 1%;
-    }
-
-    .porlijidad img {
-        height: 200px;
-        width: 200px;
-        margin-left: 25%;
-    }
-
-    .marcascamaras {
-        text-align: center;
-    }
-
-    .imagenesquienessomos img {
-        height: 300px;
-        width: 400px;
-        margin-left: 10%;
-    }
-
-    ul{
-       display: flex; 
-       flex-direction: column;
-       padding-right: 10%;
-    }
-
-    h2 {
-        text-align: center;
-    }
- 
-    h3 {
-        text-align: center;
-    } 
-
+.fotopctrabajando img {
+  width: 800px;
+  height: 400px;
 }
 
-/*CELULAR*/
+@media (min-width: 320px) and (max-width: 768px) {
+  .fotopctrabajando img {
+    height: 200px;
+    width: 300px;
+    margin-left: 1%;
+  }
+  .fotopclugar img {
+    height: 200px;
+    width: 300px;
+    margin-left: 1%;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
+/*# sourceMappingURL=styles.css.map */

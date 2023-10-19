@@ -1,0 +1,25 @@
+.fotopclugar img {
+    width: 800px;
+    height: 400px;
+}
+
+.fotopctrabajando img {
+    width: 800px;
+    height: 400px;
+}
+
+@media(min-width:320px) and (max-width:768px) {
+        .fotopctrabajando img {
+            height: 200px;
+            width: 300px;
+            margin-left: 1%;
+        }
+
+        .fotopclugar img {
+            height: 200px;
+            width: 300px;
+            margin-left: 1%;
+        }
+
+}
+

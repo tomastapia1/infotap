@@ -1,0 +1,20 @@
+.colorfondodos { 
+    background-image: url(../img/quienesomosfondo.jpg);
+}
+
+.textogradienteqsomos {
+    background: linear-gradient(black,gray);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+@media(min-width:320px) and (max-width:768px) {
+
+    .imagenesquienessomos img {
+        height: 200px;
+        width: 300px;
+        margin-left: 3%;
+    }
+
+}
