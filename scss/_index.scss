@@ -14,11 +14,13 @@ h1 {
 h2 {
     background-color: rgb(219, 219, 167);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 h3 {
     background-color: rgb(219, 219, 167); 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 ul {
@@ -49,6 +51,10 @@ li a:hover {
     height: 200px;   
 }
 
+.fotoproyecto {
+    text-align: center;
+}
+
 .fotoproyecto img {
     width: 220px;
     height: 150px;
@@ -65,6 +71,7 @@ li a:hover {
 
 .fotopcrepair {
     color: rgb(219, 219, 167); 
+    text-align: center;
 }
 
 .footerclass {
@@ -90,13 +97,16 @@ li a:hover {
 .marcascamaras img {
     width: 630px;
     height: 250px;
+    margin: 0 20px 0 190px;
 }
 
-.colorfondoeimagen img {
+.colorfondoeimagen img { 
     width: 200px;
     height: 200px;
+    margin: 0 20px 0 120px;
+    
+    
 }
-
 
 @media(min-width:320px) and (max-width:768px) {
 
@@ -117,11 +127,11 @@ li a:hover {
         .fotopcrepair img {
             height: 150px; 
             width:240px ;
-            margin-left: 11%;
+            margin-left: 1%;
         }
 
         .fotoproyecto img {
-            margin-left: 15%;
+            margin-left: 1%;
         }
 
         .footerclass {
@@ -134,14 +144,17 @@ li a:hover {
         }
 
         .marcascamaras img {
-            height: 50px;
-            width: 200px;
+            height: 100px;
+            width: 300px;
             margin-left: 4%;
+            margin: 10px 0px 10px 1px;
         }
 
         .colorfondoeimagen img {
-            height: 59px;
-            width: 59px;
+            height: 50px;
+            width: 50px;
+            margin: 10px 0px 10px 0px;
+            margin-left: 2%;
         }
     
 }

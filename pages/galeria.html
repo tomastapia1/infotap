@@ -42,31 +42,47 @@
                     <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
               </div>
             </div>
         </nav>       
     </header>
-    <main>
-        <section>
-            <div>
-                <div class="fotopclugar">
-                    <h2>Nuestra oficina</h2>
-                    <p>Trabajamos cada dia para mejorar aun mas.</p>  
+      <main>
+        <section class="fotopclugar">
+          <h2>Nuestra oficina</h2>
+          <p>Trabajamos cada dia para mejorar aun mas.</p>
+            <div id="carouselExamplee" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
                     <img src="../img/ofi.jpg" alt="ofi">
-                    <p>Direccion: Cabildo 2737</p>
-                </div>    
-                <div class="fotopctrabajando">
-                    <h3>Instalando camara ip</h3>
-                    <p>Imagenes instalando camaras en domicilios y empresas.</p>
-                    <img src="../img/trabajando.jpeg" alt="trabajando">
+                    <p>Exterior de oficina. Direccion: Cabildo 2737</p>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/interioroficina.jpg" alt="interioroficina">
+                    <p>Salas de oficina. Direccion: Cabildo 2737</p>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/interiordeoficina.webp" alt="interiordeoficina">
+                    <p>Oficina por dentro. Direccion: Cabildo 2737</p>
+                  </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExamplee" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExamplee" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="fotopctrabajando">
+                <h3>Instalando camara ip</h3>
+                <p>Imagenes instalando camaras en domicilios y empresas.</p>
+                <img src="../img/trabajando.jpeg" alt="trabajando">
             </div>
         </section>
-    </main>
+      </main>
+          
+                
     <hr>
     <footer>
         <div class="footerclass"> <!-- Le pongo una class ya que despues tengo que usarlo en el css para tirar el footer a la derecha.-->
@@ -81,3 +97,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+

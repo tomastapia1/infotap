@@ -42,10 +42,6 @@
                     <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
               </div>
             </div>
         </nav>       
@@ -53,18 +49,18 @@
     <main>
         <section>
             <h2>Formulario de contacto</h2>
-            <form action="" method="post" enctype="text/plain">
+            <form class="contactoformulario" action="" method="post" enctype="text/plain">
                 <fieldset>
                     <label for="nombreapellido">Nombre y apellido:</label>
-                    <input type="text" id="nombreapellido" name="nombreapellido" placeholder="Nombre y Apellido" required>
+                    <input placeholder="" class="input" name="text" type="text" required>
                 </fieldset>
                 <fieldset>
                     <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" placeholder="example@hotmail.com" required>
+                    <input placeholder="" class="input" name="email" type="email" required>
                 </fieldset>
                 <fieldset>
                     <label for="domicilio">Domicilio:</label>
-                    <input type="text" id="domicilio" name="domicilio" placeholder="X si es retiro en suc." required>
+                    <input placeholder=" X si es retiro en sucursal" class="input" name="text" type="text" required>
                 </fieldset>
                 <fieldset>
                     <legend>¿Lugar de entrega?</legend>
@@ -74,15 +70,22 @@
                     <input type="radio" name="retiro" value="Retiro en sucursal" required>
                 </fieldset>    
                 <fieldset>
-                    <label for="mensajeusuario">Dejanos tu mensaje</label>
-                    <hr>    
-                    <textarea name="mensajeusuario" id="mensajeusuario" cols="30" rows="10"></textarea>
-                    <hr>
-                    <input type="datetime-local" required>
-                    <hr>
+                  <div class="input-container">
+                    <input placeholder="" class="input-field" type="text">
+                    <label for="input-field" class="input-label">Envianos tu solicitud y te pasamos presupuesto.</label>
+                    <span class="input-highlight"></span>
+                  </div>
                 </fieldset>
-                <input type="submit" value="Enviar"> 
-                <input type="reset" value="Borrar">
+                <button class="btn-17">
+                  <span class="text-container">
+                    <span class="text">Enviar</span>
+                  </span>
+                </button> 
+                <button class="btn-17">
+                  <span class="text-container">
+                    <span class="text">Borrar</span>
+                  </span>
+                </button>                
             </form>
         </section>
     </main>
