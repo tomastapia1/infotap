@@ -111,41 +111,33 @@ li a:hover {
     flex-direction: column;
     padding-right: 10%;
   }
-
   h2 {
     text-align: center;
   }
-
   h3 {
     text-align: center;
   }
-
   .fotopcrepair img {
     height: 150px;
     width: 240px;
     margin-left: 1%;
   }
-
   .fotoproyecto img {
     margin-left: 1%;
   }
-
   .footerclass {
     padding-left: 3%;
   }
-
   .marcascamaras {
     display: flex;
     flex-direction: column;
   }
-
   .marcascamaras img {
     height: 100px;
     width: 300px;
     margin-left: 4%;
     margin: 10px 0px 10px 1px;
   }
-
   .colorfondoeimagen img {
     height: 50px;
     width: 50px;
@@ -153,7 +145,6 @@ li a:hover {
     margin-left: 2%;
   }
 }
-
 .colorfondodos {
   background-image: url(../img/quienesomosfondo.jpg);
 }
@@ -175,7 +166,6 @@ li a:hover {
     margin-left: 3%;
   }
 }
-
 .porlijidad img {
   width: 400px;
   height: 400px;
@@ -188,7 +178,6 @@ li a:hover {
     margin-left: 25%;
   }
 }
-
 .camarashikvision h2 {
   font-family: "roboto", sans-serif;
   background-color: white;
@@ -259,32 +248,26 @@ li a:hover {
     padding-left: 3%;
     padding-top: 3000px;
   }
-
   .carousel-item img {
     width: 120px;
     height: 100px;
   }
-
   .camarashikvision {
     display: flex;
     flex-direction: column;
   }
-
   .marcascamaras {
     text-align: center;
   }
-
   .footerclassr {
     padding-left: 1%;
     background-color: white;
   }
-
   .footerclassr img {
     width: 20px;
     height: 20px;
   }
 }
-
 .fotopclugar img {
   width: 800px;
   height: 400px;
@@ -309,14 +292,12 @@ li a:hover {
     width: 300px;
     margin-left: 1%;
   }
-
   .fotopclugar img {
     height: 200px;
     width: 300px;
     margin-left: 1%;
   }
 }
-
 .footerclass {
   background-color: rgb(219, 219, 167);
 }
@@ -405,38 +386,30 @@ li a:hover {
   0% {
     transform: translateY(0);
   }
-
   50% {
     transform: translateY(80%);
   }
-
   51% {
     transform: translateY(-80%);
   }
-
   to {
     transform: translateY(0);
   }
 }
-
 @keyframes move-up-alternate {
   0% {
     transform: translateY(0);
   }
-
   50% {
     transform: translateY(80%);
   }
-
   51% {
     transform: translateY(-80%);
   }
-
   to {
     transform: translateY(0);
   }
 }
-
 .btn-17:after,
 .btn-17:before {
   --skew: 0.2;
@@ -509,13 +482,13 @@ li a:hover {
 }
 
 /* Input field:focus styles */
-.input-field:focus+.input-label {
+.input-field:focus + .input-label {
   top: -20px;
   font-size: 12px;
   color: white;
 }
 
-.input-field:focus+.input-label+.input-highlight {
+.input-field:focus + .input-label + .input-highlight {
   width: 100%;
 }
 
