@@ -6,7 +6,7 @@ h1 {
 
 .textogradiente {
   background: linear-gradient(white, gray);
-  
+  -webkit-background-clip: text;
   color: transparent;
 }
 
@@ -160,7 +160,7 @@ li a:hover {
 
 .textogradienteqsomos {
   background: linear-gradient(black, gray);
-  
+  -webkit-background-clip: text;
   color: transparent;
 }
 
@@ -341,7 +341,7 @@ li a:hover {
 
 .btn-17 {
   -webkit-tap-highlight-color: transparent;
- 
+  -webkit-appearance: button;
   background-color: #000;
   background-image: none;
   color: #fff;
@@ -351,7 +351,7 @@ li a:hover {
   font-weight: 900;
   line-height: 1.5;
   margin: 0;
- 
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
   padding: 0;
   text-transform: uppercase;
 }
@@ -366,6 +366,7 @@ li a:hover {
 
 .btn-17 svg {
   display: block;
+  vertical-align: middle;
 }
 
 .btn-17 [hidden] {
