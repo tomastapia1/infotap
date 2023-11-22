@@ -91,7 +91,8 @@ li a:hover {
 }
 
 .fotofondo {
-    background-color:gray ;
+    
+
 }
 
 .marcascamaras img {
@@ -104,8 +105,12 @@ li a:hover {
     width: 200px;
     height: 200px;
     margin: 0 20px 0 120px;
-    
-    
+   
+}
+
+.imagenesmarca {
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
 
 @media(min-width:320px) and (max-width:768px) {

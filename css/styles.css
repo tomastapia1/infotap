@@ -88,10 +88,6 @@ li a:hover {
   font-size: 50px;
 }
 
-.fotofondo {
-  background-color: gray;
-}
-
 .marcascamaras img {
   width: 630px;
   height: 250px;
@@ -102,6 +98,11 @@ li a:hover {
   width: 200px;
   height: 200px;
   margin: 0 20px 0 120px;
+}
+
+.imagenesmarca {
+  overflow-clip-margin: content-box;
+  overflow: clip;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
@@ -297,6 +298,10 @@ li a:hover {
     margin-left: 1%;
   }
 }
+.footerclass {
+  background-color: rgb(219, 219, 167);
+}
+
 .contactoformulario {
   display: flex;
   justify-content: center;
