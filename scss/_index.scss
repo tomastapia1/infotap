@@ -6,7 +6,7 @@ $colorgris :#808080;
 h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
+    font-size: 5rem;
 }
 
 .textogradiente {
@@ -20,6 +20,7 @@ h2 {
     background-color:$colorprincipal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    padding: 1rem;
 }
 
 h3 {
@@ -51,6 +52,7 @@ li a:hover {
     color: yellow;    
 }
 
+
 .fotopcrepair img {
     width: 500px;
     height: 200px;   
@@ -71,17 +73,26 @@ li a:hover {
 }
 
 .fotoproyecto {
-    color: $colorprincipal; 
+    & p {
+        color:  $colornegro;
+    }
 }
 
 .fotopcrepair {
-    color: $colorprincipal; 
     text-align: center;
+
+    & p {
+        color:  $colornegro;
+    }
 }
 
 .footerclass {
     padding-left: 85%;
     background-color: $segundocolor;
+
+    & p {
+
+    }
 }
 
 .footerclass img {
@@ -95,10 +106,25 @@ li a:hover {
     font-size: 50px;
 }
 
-.marcascamaras img {
-    width: 630px;
-    height: 250px;
-    margin: 0 20px 0 190px;
+.marcascamaras {
+
+    & .marcas {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        & a { 
+            width: 300px;
+            overflow: hidden;
+            @extend %flexCenter;
+            
+            & img {
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+
+    }
 }
 
 .fotofondo {
@@ -125,10 +151,16 @@ li a:hover {
     }
 }
 
+.container-fluid a {
+    font-size: 0,2rem;
+}
+
+
+
 @media(min-width:320px) and (max-width:768px) {
 
         ul{
-            display: flex; 
+            display: flex;
             flex-direction: column;
             padding-right: 10%;
         }
@@ -156,7 +188,7 @@ li a:hover {
         }
         
         .marcascamaras {
-            display: flex; 
+            display: flex;
             flex-direction: column;
         }
 

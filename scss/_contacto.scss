@@ -5,14 +5,21 @@ $colorgris :#808080;
 
 .footerclass {
   background-color: $colorprincipal;
+  padding: 3rem 1rem 3rem 0rem;
+  display: flex;
+  flex-direction:  column;
+  justify-content: center;
+  align-items: flex-end;
+
+  .footerRedes a {
+    padding: 1rem;
+  }
 }
 
 .contactoformulario {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  @extend %flexCenter;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   
 }
 
