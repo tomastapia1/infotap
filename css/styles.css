@@ -204,7 +204,7 @@ li a:hover {
 }
 
 .colorfondologosip {
-  background-color: gray;
+  background-color: #808080;
 }
 
 .carousel-inner {
@@ -473,7 +473,7 @@ li a:hover {
   padding: 10px;
   font-size: 16px;
   border: none;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid #808080;
   outline: none;
   background-color: transparent;
 }

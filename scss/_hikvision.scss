@@ -1,5 +1,6 @@
 $colornegro:#000000;
 $segundocolor:#FFFFFF;
+$colorgris :#808080;
 
 .camarashikvision h2 {
     font-family:'roboto', sans-serif;
@@ -8,7 +9,7 @@ $segundocolor:#FFFFFF;
 }
 
 .colorfondologosip {
-    background-color: gray ;
+    background-color: $colorgris ;
 }
 
 .carousel-inner {

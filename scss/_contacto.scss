@@ -1,6 +1,7 @@
 $colorprincipal: #DBDBA7;
 $segundocolor:#FFFFFF;
 $colornegro:#000000;
+$colorgris :#808080;
 
 .footerclass {
   background-color: $colorprincipal;
@@ -169,7 +170,7 @@ $colornegro:#000000;
     padding: 10px;
     font-size: 16px;
     border: none;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid $colorgris;
     outline: none;
     background-color: transparent;
   }
