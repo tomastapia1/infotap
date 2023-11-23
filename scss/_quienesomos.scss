@@ -1,9 +1,11 @@
+$colornegro:#000000;
+
 .colorfondodos { 
     background-image: url(../img/quienesomosfondo.jpg);
 }
 
 .textogradienteqsomos {
-    background: linear-gradient(black,gray);
+    background: linear-gradient($colornegro,gray);
     -webkit-background-clip: text;
     color: transparent;
 }

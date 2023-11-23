@@ -1,17 +1,18 @@
+$segundocolor:#FFFFFF;
+$colornegro:#000000;
+
 .porlijidad img {
     width:400px ;
     height:400px ;
 }
 
 .dropdown-menu {
-    background-color: black;
+    background-color: $colornegro;
 }
 
 .dropdown-item {
-    color: white;
+    color: $segundocolor;
 }
-
-
 
 @media(min-width:320px) and (max-width:768px) {
     .porlijidad img {

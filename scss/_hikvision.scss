@@ -1,6 +1,9 @@
+$colornegro:#000000;
+$segundocolor:#FFFFFF;
+
 .camarashikvision h2 {
     font-family:'roboto', sans-serif;
-    background-color: white;
+    background-color:$segundocolor;
     font-size: 15px;
 }
 
@@ -9,17 +12,17 @@
 }
 
 .carousel-inner {
-    color: white;
+    color: $segundocolor;
 }
 
 .camarashikvision p {
     font-family:'roboto', sans-serif;
-    background-color: white;
+    background-color:$segundocolor;
     font-size: 13px;
 }
 
 .descripcioncamaraip {
-    color: white;
+    color: $segundocolor;
 }
 
 .camarashikvision {
@@ -42,12 +45,12 @@
 .camarashikvision img {
     width:200px;
     height:200px;
-    border-left: 1px solid black;
+    border-left: 1px solid $colornegro;
 }
 
 .footerclassr {
     padding-left: 85%;
-    background-color: white;
+    background-color: $segundocolor;
 }
 
 .footerclassr img {
@@ -86,7 +89,7 @@
 
     .footerclassr {
         padding-left: 1%;
-        background-color: white;
+        background-color:$segundocolor;
     }
     
     .footerclassr img {

@@ -1,3 +1,7 @@
+$colorprincipal: #DBDBA7;
+$segundocolor:#FFFFFF;
+$colornegro:#000000;
+
 h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -5,20 +9,20 @@ h1 {
 }
 
 .textogradiente {
-    background: linear-gradient(white,gray);
+    background: linear-gradient($segundocolor,gray);
     -webkit-background-clip: text;
     color: transparent;  
       
 }
 
 h2 {
-    background-color: rgb(219, 219, 167);
+    background-color:$colorprincipal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
 h3 {
-    background-color: rgb(219, 219, 167); 
+    background-color:$colorprincipal; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
@@ -38,7 +42,7 @@ p {
 
 li a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    color:$segundocolor;
     text-decoration: none;
 }
 
@@ -66,17 +70,17 @@ li a:hover {
 }
 
 .fotoproyecto {
-    color: rgb(219, 219, 167); 
+    color: $colorprincipal; 
 }
 
 .fotopcrepair {
-    color: rgb(219, 219, 167); 
+    color: $colorprincipal; 
     text-align: center;
 }
 
 .footerclass {
     padding-left: 85%;
-    background-color: white;
+    background-color: $segundocolor;
 }
 
 .footerclass img {
@@ -109,14 +113,12 @@ li a:hover {
 } 
 
 .nav-link, .navbar-brand {
-    color: white;
+    color: $segundocolor;
 
     &:hover {
-        color:  rgb(219, 219, 167); ;
+        color:  $colorprincipal !important ;;
     }
 }
-
-
 
 @media(min-width:320px) and (max-width:768px) {
 

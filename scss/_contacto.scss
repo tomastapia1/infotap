@@ -1,5 +1,9 @@
+$colorprincipal: #DBDBA7;
+$segundocolor:#FFFFFF;
+$colornegro:#000000;
+
 .footerclass {
-  background-color: rgb(219, 219, 167);
+  background-color: $colorprincipal;
 }
 
 .contactoformulario {
@@ -24,9 +28,9 @@
 .btn-17 {
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
-  background-color: #000;
+  background-color: $colornegro;
   background-image: none;
-  color: #fff;
+  color: $segundocolor;
   cursor: pointer;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
@@ -35,7 +39,7 @@
   font-weight: 900;
   line-height: 1.5;
   margin: 0;
-  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  -webkit-mask-image: -webkit-radial-gradient($colornegro,$segundocolor);
   padding: 0;
   text-transform: uppercase;  
 }
@@ -124,7 +128,7 @@
 .btn-17:after,
 .btn-17:before {
   --skew: 0.2;
-  background: #fff;
+  background: $segundocolor;
   content: "";
   display: block;
   height: 102%;
@@ -176,7 +180,7 @@
     top: 0;
     left: 0;
     font-size: 16px;
-    color:rgb(219, 219, 167);
+    color:$colorprincipal;
     pointer-events: none;
     transition: all 0.3s ease;
   }
@@ -188,7 +192,7 @@
     left: 0;
     height: 2px;
     width: 0;
-    background-color: white;
+    background-color: $segundocolor;
     transition: all 0.3s ease;
   }
   
@@ -196,7 +200,7 @@
   .input-field:focus + .input-label {
     top: -20px;
     font-size: 12px;
-    color: white;
+    color:$segundocolor;
   }
   
   .input-field:focus + .input-label + .input-highlight {
@@ -212,8 +216,8 @@
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 9999px;
-    box-shadow: inset 2px 5px 10px rgb(219, 219, 167);
-    color:rgb(219, 219, 167);
+    box-shadow: inset 2px 5px 10px $colorprincipal;
+    color:$colorprincipal;
   }
 
   
