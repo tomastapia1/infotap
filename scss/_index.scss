@@ -24,12 +24,12 @@ h3 {
 }
 
 ul {
-    
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 p {
@@ -90,11 +90,6 @@ li a:hover {
     font-size: 50px;
 }
 
-.fotofondo {
-    
-
-}
-
 .marcascamaras img {
     width: 630px;
     height: 250px;
@@ -111,7 +106,17 @@ li a:hover {
 .imagenesmarca {
     overflow-clip-margin: content-box;
     overflow: clip;
+} 
+
+.nav-link, .navbar-brand {
+    color: white;
+
+    &:hover {
+        color:  rgb(219, 219, 167); ;
+    }
 }
+
+
 
 @media(min-width:320px) and (max-width:768px) {
 

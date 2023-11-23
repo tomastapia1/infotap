@@ -3,6 +3,16 @@
     height:400px ;
 }
 
+.dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+
+
 @media(min-width:320px) and (max-width:768px) {
     .porlijidad img {
         height: 200px;
