@@ -5,7 +5,7 @@ h1 {
 }
 
 .textogradiente {
-  background: linear-gradient(#FFFFFF, gray);
+  background: linear-gradient(#FFFFFF, #808080);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -92,6 +92,10 @@ li a:hover {
   width: 630px;
   height: 250px;
   margin: 0 20px 0 190px;
+}
+
+.fotofondo {
+  background-color: #808080;
 }
 
 .colorfondoeimagen img {

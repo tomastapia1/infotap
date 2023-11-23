@@ -1,6 +1,7 @@
 $colorprincipal: #DBDBA7;
 $segundocolor:#FFFFFF;
 $colornegro:#000000;
+$colorgris :#808080;
 
 h1 {
     text-align: center;
@@ -9,7 +10,7 @@ h1 {
 }
 
 .textogradiente {
-    background: linear-gradient($segundocolor,gray);
+    background: linear-gradient($segundocolor,$colorgris);
     -webkit-background-clip: text;
     color: transparent;  
       
@@ -98,6 +99,10 @@ li a:hover {
     width: 630px;
     height: 250px;
     margin: 0 20px 0 190px;
+}
+
+.fotofondo {
+    background-color: $colorgris;
 }
 
 .colorfondoeimagen img { 
